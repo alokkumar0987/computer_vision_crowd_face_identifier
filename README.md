@@ -31,7 +31,7 @@ A professional, high-performance face recognition pipeline built for private sec
 - **Face Recognition**: **ArcFace (iResNet-100)**. State-of-the-art deep feature extractor (512-d normalized embeddings) optimized for high discriminative power.
 - **Matching Algorithm**: **Cosine Similarity**. Measures the angle between feature vectors to determine identity match accuracy.
 
-![Cosine Similarity Logic](file:///d:/face_identifiers/face-recognition/assets/cosine_similarity_logic.png)
+![Cosine Similarity Logic](assets/cosine_similarity_logic.png)
 
 ---
 
@@ -79,7 +79,7 @@ The system follows a **Motion-Aware, Cache-Driven, Event-Based** approach to sol
 ## 5. Architecture Diagram
 The system is built on a modular "Service-Oriented" architecture, allowing each layer (Detection, Tracking, Recognition) to be updated or swapped independently.
 
-![Crowd Face Identifier Architecture](file:///d:/face_identifiers/face-recognition/assets/architecture_diagram.png)
+![Crowd Face Identifier Architecture](assets/architecture_diagram.png)
 
 ```mermaid
 graph TD
@@ -254,7 +254,7 @@ The system uses `loguru` for structured logging. Logs provide critical insights 
 - [Yolov5-face Implementation](https://github.com/deepcam-cn/yolov5-face)
 - **Tracking Performance**: ByteTrack benchmark (MOTA vs FPS).
 
-![ByteTrack Performance Benchmark](file:///d:/face_identifiers/face-recognition/assets/bytetrack_performance.png)
+![ByteTrack Performance Benchmark](assets/bytetrack_performance.png)
 
 ---
 
