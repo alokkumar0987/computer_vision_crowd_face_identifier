@@ -1,0 +1,25 @@
+# Face Recognition Pipeline Configuration
+
+# Video Stream Settings
+camera:
+  source: 0       # 0 for default webcam, or a RTSP URL for network streams
+  fps: 30         # Target processing frame rate
+
+# Model Weight Paths
+models:
+  detection: "modules/detection/scrfd/weights/scrfd_2.5g_bnkps.onnx"
+  recognition: "modules/recognition/arcface/weights/arcface_r100.pth"
+
+# Alert System - Watchlist Individuals
+# These names will trigger RED boxes and AUDIO/VOICE alerts
+watchlist:
+  - "Suspect1"
+  - "TargetA"
+  - "Alok"
+
+# Internal App Paths (Maintenance)
+app:
+  screenshot_dir: "screenshots"
+  known_faces_dir: "database/known_faces"
+  log_dir: "logs"
+  logo: "assets/logo.png"
