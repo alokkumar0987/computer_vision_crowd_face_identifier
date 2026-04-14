@@ -1,8 +1,6 @@
 # Crowd Face Identifier Documentation
 
-> [!IMPORTANT]
-> **PRIVATE & CONFIDENTIAL**
-> This project is the proprietary property of **Alok Kumar**. It is not intended for public distribution or open-source use.
+
 
 ## 1. Project Overview
 A professional, high-performance face recognition pipeline built for private security and monitoring. The system features motion-aware processing, temporal best-frame memory, and an event-based recognition trigger to ensure maximum stability and accuracy.
